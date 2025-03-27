@@ -29,7 +29,7 @@ Se asume que los alumnos poseen el conocimiento necesario para la instalación d
 
 ### Cómo instalar y usar WSL
 
-### Cómo usar e imstalar Jupyter Notebook. (Python y C)
+### Cómo usar e instalar Jupyter Notebook. (Python y C)
 
 ### Kahoot
 
