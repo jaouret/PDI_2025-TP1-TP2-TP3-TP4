@@ -18,8 +18,8 @@ Al final de cada clase utilizaremos Kahoot para fijar algunos conceptos y califi
 
 ### Sistemas Operativos
 - Linux (Se recomienda la distribución Ubuntu 22 o superior, por su simplicidad de uso y disponibilidad de herramientas)
-- WSL (Windows Subsystem for Linux)
-- Mac OS
+- WSL (Windows Subsystem for Linux - Versión Ubuntu disponible en el Windows Store)
+- Mac OS. Tiene Unix Nativo con algunas diferencias a Linux pero se pueden utilizar todos los lenguajes y herramientas descriptas.
 
 #### Importante: no se trabajará sobre el entorno Windows nativo.
 
