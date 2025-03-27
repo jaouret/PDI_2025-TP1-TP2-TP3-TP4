@@ -138,6 +138,23 @@ Ejecutar el programa
 !./programa
 ````
 
+En Windows 11, Microsoft ha integrado WSLg (Windows Subsystem for Linux GUI), lo que permite ejecutar aplicaciones gráficas sin necesidad de configuraciones adicionales.
+
+Instalar un entorno gráfico (opcional)
+Elegir GNOME, XFCE o KDE.
+````
+sudo apt update && sudo apt install xfce4 -y
+startxfce4
+sudo apt install firefox -y
+firefox
+````
+Se abrirá Firefox en Windows con WSLg desde WSL.
+
+Para escritorio completo como GNOME:
+````
+sudo apt install ubuntu-desktop -y
+````
+
 ### Kahoot
 
 ### Cómo acceder a los trabajos prácticos
