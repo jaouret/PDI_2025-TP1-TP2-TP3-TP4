@@ -223,7 +223,8 @@ sudo apt install ubuntu-desktop -y
 
 ### Cómo acceder a los trabajos prácticos
 
-Ir a: 
+Ir a: https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4.git
+
 
 
 
