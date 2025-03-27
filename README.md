@@ -27,8 +27,9 @@ Se asume que los alumnos poseen el conocimiento necesario para la instalación d
 
 ## Algunos instructivos.
 
-### Cómo instalar y usar WSL
-### Cómo instalar e usar Jupyter Notebook. (Python y C)
+### Cómo instalar y usar WSL.
+### Cómo instalar e usar Jupyter Notebook. (Python y C).
+### Cómo usar un entorno gráfico en WSL.
 
 **Instalación en Ubuntu (Linux)(en MacOS es similar, Python se instala con [brew install python]**
 Actualizar el sistema. Abrir terminal y ejecutar:
