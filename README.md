@@ -30,7 +30,7 @@ Se asume que los alumnos poseen el conocimiento necesario para la instalación d
 ### Cómo instalar y usar WSL
 ### Cómo instalar e usar Jupyter Notebook. (Python y C)
 
-**Instalación en Ubuntu (Linux)**
+**Instalación en Ubuntu (Linux)(en MacOS es similar, Python se instala con [brew install python]**
 Actualizar el sistema. Abrir terminal y ejecutar:
 ````
 sudo apt update && sudo apt upgrade -y
@@ -76,6 +76,66 @@ http://localhost:8888/?token=XXXXXXXXXX
 ````
 Copiar y pegar en el navegador de Windows para acceder a Jupyter Notebook.
 
+### Como usar C/C++ en Jupyter
+**Usar el kernel de C con xeus-cling**
+Este método permite ejecutar código C directamente en celdas de Jupyter.
+Instalar dependencias
+Abrir una terminal y ejecutar:
+````
+pip install jupyter
+conda install -c conda-forge xeus-cling
+````
+Iniciar Jupyter Notebook
+````
+jupyter notebook
+````
+Crear un nuevo notebook con el kernel de C
+En Jupyter Notebook, hacer clic en New
+Seleccionar C++17 (Cling)
+Escribir y ejecutar código en C, por ejemplo:
+````c
+#include <stdio.h>
+
+int main() {
+    printf("Hola, Jupyter en C!\n");
+    return 0;
+}
+````
+Nota: xeus-cling está optimizado para C++, pero se puede ejecutar código en C con algunas adaptaciones.
+
+**Usar %%bash para compilar y ejecutar código C**
+Si no se instala un kernel adicional, se puede usar %%bash para ejecutar comandos de compilación en celdas de Jupyter.
+Compilar y ejecutar código en una celda
+````c
+%%bash
+echo '#include <stdio.h>
+int main() {
+    printf("Hola, Jupyter desde C!\n");
+    return 0;
+}' > programa.c
+````
+````
+gcc programa.c -o programa
+./programa
+````
+Escribir y ejecutar código en múltiples celdas
+Celda 1: Crear el código fuente
+````c
+%%writefile programa.c
+#include <stdio.h>
+int main() {
+    printf("Hola desde Jupyter en C!\n");
+    return 0;
+}
+````
+Compilar el programa
+````
+!gcc programa.c -o programa
+````
+Ejecutar el programa
+````
+!./programa
+````
 
 ### Kahoot
 
