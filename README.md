@@ -138,10 +138,63 @@ Ejecutar el programa
 !./programa
 ````
 
-En Windows 11, Microsoft ha integrado WSLg (Windows Subsystem for Linux GUI), lo que permite ejecutar aplicaciones gráficas sin necesidad de configuraciones adicionales.
+**Breves conceptos para usar Jupyter**
 
-Instalar un entorno gráfico (opcional)
-Elegir GNOME, XFCE o KDE.
+Tipos de Celdas
+````
+Código: Ejecuta código en Python u otros lenguajes compatibles.
+Markdown: Permite escribir texto con formato, ecuaciones (LaTeX), enlaces e imágenes.
+````
+
+Uso de tecla combinadas (shortcuts)
+````
+Shift + Enter → Ejecuta la celda y pasa a la siguiente.
+Ctrl + Enter → Ejecuta la celda sin moverse.
+Esc + A → Agrega una celda arriba.
+Esc + B → Agrega una celda abajo.
+Esc + M → Convierte la celda a Markdown.
+Esc + Y → Convierte la celda a Código.
+````
+Ejecutar Código en Partes
+````
+Dividir el código en celdas pequeñas para ejecutar por partes sin reiniciar todo.
+Usar %%time para medir el tiempo de ejecución de una celda.
+````
+Importar Bibliotecas
+Ejemplo con NumPy y Pandas:
+````
+import numpy as np
+import pandas as pd
+````
+Graficar en Jupyter
+Usar matplotlib para gráficos:
+````
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3, 4], [10, 20, 25, 30])
+plt.show()
+````
+Cargar Datos
+Para leer un archivo CSV:
+````
+df = pd.read_csv("archivo.csv")
+df.head()
+````
+Guardar y Cerrar
+````
+Guardar: Ctrl + S
+````
+Descargar Notebook: 
+````
+Archivo → Descargar como → .ipynb o .py
+````
+Cerrar:
+````
+Kernel → Restart & Clear Output y luego cerrar la pestaña.
+````
+
+**Instalar un entorno gráfico (opcional)**
+
+En Windows 11, Microsoft ha integrado WSLg (Windows Subsystem for Linux GUI), lo que permite ejecutar aplicaciones gráficas sin necesidad de configuraciones adicionales. Elegir GNOME, XFCE o KDE.
 ````
 sudo apt update && sudo apt install xfce4 -y
 startxfce4
