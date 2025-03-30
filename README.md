@@ -211,7 +211,7 @@ sudo apt install ubuntu-desktop -y
 ### Kahoot!
 
 - Crear una Cuenta en Kahoot
-- Abrir https://kahoot.com en tu navegador.
+- Abrir https://kahoot.com en EL navegador.
 - Abrir https://kahoot.it en celulares o instalar app.
 - Ingresar el PIN de juego y apellido/nombre. El PIN del juego se indicará en cada clase.
 - Una vez que todos estén ingresados iniciamos el juego.
