@@ -1,4 +1,4 @@
-# PDI - TP 1 - A (Entrega 22/04/2024)
+# PDI - TP 1 - A (Entrega 28/04/2025)
 
 Explicar qué es un socket y los diferentes tipos de sockets.
 
@@ -25,7 +25,7 @@ Brian "Beej Jorgensen" Hall. Beej's Guide to Network Programming: Using Internet
 Douglas E. Comer, David L. Stevens. Internetworking With Tcp/Ip: Client-Server Programming and Applications. Prentice Hall. 2011.
 
 
-# PDI - TP 1 - B - Raw Sockets (Entrega 29/04/2024)
+# PDI - TP 1 - B - Raw Sockets (Entrega 5/05/2025)
 
 El concepto básico de sockets a bajo nivel es enviar un solo paquete por vez con todos los encabezados de los protocolos
 completados dentro del programa en lugar de usar el kernel.
@@ -54,7 +54,7 @@ TCP contenidos en el paquete ).
 * Enviar tráfico ICMP al "sniffer" y mostrar los resultados del LOG con comentarios.
 * Mostrar resultados.
 
-# PDI - TP 1 - C - Cliente Servidor utilizando Sockets en Python. (Entrega 13/05/2024)
+# PDI - TP 1 - C - Cliente Servidor utilizando Sockets en Python. (Entrega 12/05/2025)
 
 Para realizar programas Cliente Servidor con Python utlizamos la librería o paquete socket.py ( https://github.com/python/cpython/blob/3.10/Lib/socket.py )
 ). Esta librería es una transcripción sencilla de la llamada al sistema sockets de BSD Unixal estilo orientado a objetos de Python:.
@@ -104,7 +104,7 @@ except OSError:
 CLIENT.close()
 ```
 
-# PDI - TP 2 - A - SNMP (Entrega 13/05/2024)
+# PDI - TP 2 - A - SNMP (Entrega 19/05/2025)
 
 Descargar de internet un gestor de SNMP
 Instalar un agente SNMP en Windows
@@ -161,7 +161,7 @@ Ejecutar el MIB Browser sobre Windows o Linux.
 
 Describir lo que se observa en un informe.
 
-# PDI - TP 3 - A - RestAPI - Servidores sin control de estado - Gestión de la Base de Datos (Entrega 10/06/2024)
+# PDI - TP 3 - A - RestAPI - Servidores sin control de estado - Gestión de la Base de Datos (Entrega 2/06/2025)
 Instalar SQLite.
 
 Instalar Heidi SQL en Windows.
@@ -209,7 +209,7 @@ Notas:
 
 Verificar y mejorar.
 
-# PDI - TP 4 - A - RestAPI - IoT - MQTT (Entrega 24/06/2024 o en Primera Fecha de Final de Julio)
+# PDI - TP 4 - A - RestAPI - IoT - MQTT (Entrega 9/06/2025)
 
 Instalar MQTT en Windows o Linux.
 
@@ -288,7 +288,7 @@ net stop mosquitto
 
 * Seguir los mismos pasos explicados para Linux.
 
-# PDI - TP 4 - B - IoT MQTT (Entrega 24/06/2024 o en Primera Fecha de Final de Julio)
+# PDI - TP 4 - B - IoT MQTT (Entrega 16/06/2025)
 
 Una vez que tengan funcionando lo anterior deberán simular la publicación de datos de sensores tomando lo que está ingresado en la base datos.
 Por practicidad y seguridad se puede hacer una aplicación cliente servidor entre los sensores y una base de datos, para que luego un publicador mqtt tome los datos desde ahí.
