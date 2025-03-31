@@ -78,7 +78,7 @@ http://localhost:8888/?token=XXXXXXXXXX
 Copiar y pegar en el navegador de Windows para acceder a Jupyter Notebook.
 
 ### Como usar C/C++ en Jupyter
-**Usar el kernel de C con xeus-cling**
+**Usar el kernel de C con xeus-cling** **OPCION EFECTIVA PERO COMPLICADA**
 Este método permite ejecutar código C directamente en celdas de Jupyter.
 Instalar dependencias.
 
@@ -161,7 +161,7 @@ int main() {
 ````
 Nota: xeus-cling está optimizado para C++, pero se puede ejecutar código en C con algunas adaptaciones.
 
-**Usar %%bash para compilar y ejecutar código C**
+**Usar %%bash para compilar y ejecutar código C** **OPCION SIMPLE**
 Si no se instala un kernel adicional, se puede usar %%bash para ejecutar comandos de compilación en celdas de Jupyter.
 Compilar y ejecutar código en una celda
 ````c
