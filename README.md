@@ -80,10 +80,21 @@ Copiar y pegar en el navegador de Windows para acceder a Jupyter Notebook.
 ### Como usar C/C++ en Jupyter
 **Usar el kernel de C con xeus-cling**
 Este método permite ejecutar código C directamente en celdas de Jupyter.
-Instalar dependencias
+Instalar dependencias.
+
+Conda es un gestor de paquetes y entornos virtuales. Funciona en Windows, macOS y Linux y permite instalar y administrar dependencias.
+A diferencia de venv (Virtualenv) permite otros lenguajes como C, C++, R, etc. venv sólo permite Python
 Abrir una terminal y ejecutar:
 ````
 pip install jupyter
+# Instalar Miniconda
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+
+# Seguir isntrucciones y agragar conda al PATH
+# Reiniciar la terminal y luego verificar que haya quedado instalado.
+conda --version
+
 conda install -c conda-forge xeus-cling
 ````
 Iniciar Jupyter Notebook
