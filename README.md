@@ -162,11 +162,13 @@ int main() {
 ````
 Nota: xeus-cling está optimizado para C++, pero se puede ejecutar código en C con algunas adaptaciones.
 
-**Usar %%bash para compilar y ejecutar código C**   
+**Usar %%bash o %%writefile para compilar y ejecutar código C**   
 **OPCION SIMPLE**   
 **Kernel Activo en Jupyter Notebook debe ser Python**   
 Si no se instala un kernel adicional, se puede usar %%bash para ejecutar comandos de compilación en celdas de Jupyter.
 Compilar y ejecutar código en una celda
+
+### OPCION 1 - Yo prefiero la Opción 2
 ````c
 %%bash
 echo '#include <stdio.h>
@@ -179,6 +181,8 @@ int main() {
 gcc programa.c -o programa
 ./programa
 ````
+
+### OPCION 2
 Escribir y ejecutar código en múltiples celdas
 Celda 1: Crear el código fuente
 ````c
