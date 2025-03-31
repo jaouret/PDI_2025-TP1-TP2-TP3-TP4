@@ -78,9 +78,10 @@ http://localhost:8888/?token=XXXXXXXXXX
 Copiar y pegar en el navegador de Windows para acceder a Jupyter Notebook.
 
 ### Como usar C/C++ en Jupyter
-**Usar el kernel de C con xeus-cling** **OPCION EFECTIVA PERO COMPLICADA**
+**Usar el kernel de C con xeus-cling**   
+**OPCION EFECTIVA PERO COMPLICADA**   
 Este método permite ejecutar código C directamente en celdas de Jupyter.
-Instalar dependencias.
+Instalar dependencias.Esta parte puede dar algunos problemas si no se encuentran los repositorios.   
 
 Conda es un gestor de paquetes y entornos virtuales. Funciona en Windows, macOS y Linux y permite instalar y administrar dependencias.
 A diferencia de venv (Virtualenv) permite otros lenguajes como C, C++, R, etc. venv sólo permite Python
@@ -161,7 +162,9 @@ int main() {
 ````
 Nota: xeus-cling está optimizado para C++, pero se puede ejecutar código en C con algunas adaptaciones.
 
-**Usar %%bash para compilar y ejecutar código C** **OPCION SIMPLE**
+**Usar %%bash para compilar y ejecutar código C**   
+**OPCION SIMPLE**   
+**Kernel Activo en Jupyter Notebook debe ser Python**   
 Si no se instala un kernel adicional, se puede usar %%bash para ejecutar comandos de compilación en celdas de Jupyter.
 Compilar y ejecutar código en una celda
 ````c
