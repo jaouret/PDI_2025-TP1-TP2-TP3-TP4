@@ -96,9 +96,55 @@ bash Miniconda3-latest-Linux-x86_64.sh
 conda --version
 
 conda install -c conda-forge xeus-cling
+conda list xeus-cling
+# Debe mostrar:
+# packages in environment at /home/javier/miniconda3:
+#
+# Name                    Version                   Build  Channel
+xeus-cling                0.15.3               he80cb83_2    conda-forge
+
+# Luego
+jupyter kernelspec list
+
+# Debe mostrar:
+Available kernels:
+  python3    /home/javier/.local/share/jupyter/kernels/python3
+  xcpp11     /home/javier/.local/share/jupyter/kernels/xcpp11
+  xcpp14     /home/javier/.local/share/jupyter/kernels/xcpp14
+  xcpp17     /home/javier/.local/share/jupyter/kernels/xcpp17
+
+
+# Si no lista el kernel de C ejecutar
+# Para encontrar el directorio correcto
+find $HOME/miniconda3 -name "cling-cpp"
+# Registrarlo como:
+jupyter kernelspec install --user /ruta/encontrada/cling-cpp
+
+# Si se instaló JUpyter en un entorno de conda hay que activarlo:
+conda activate base  # O o mobre del entorno (conda)
+jupyter notebook
+
+# Si Jupyter no está instalado en el entorno, instalarlo como:
+
+conda install -c conda-forge jupyter
+
+# Si todo lo anterior no funciona cling-cpp no aparece, agrégarlo manualmente con:
+# Verifico
+conda list xeus-cling
+# Instalo
+conda install -c conda-forge xeus-cling
+conda install -c conda-forge jupyter_kernel_test
+jupyter kernelspec list
+# Si cling-cpp no aparece, agrégarlo manualmente con:
+python -m jupyter kernelspec install --user /home/usuario/miniconda3/envs/mi_env/share/jupyter/kernels/cling-cpp
+conda create --name jupyter_cpp -c conda-forge jupyter xeus-cling
+conda activate jupyter_cpp
+jupyter notebook
+
 ````
 Iniciar Jupyter Notebook
 ````
+jupyter notebook stop
 jupyter notebook
 ````
 Crear un nuevo notebook con el kernel de C
