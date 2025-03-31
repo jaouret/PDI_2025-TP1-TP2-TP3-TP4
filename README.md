@@ -43,6 +43,14 @@ Jupyter Notebook requiere Python y pip para su instalación.
 sudo apt install python3 python3-pip -y
 ````
 Crear un entorno virtual (opcional).
+````
+pip3 install virtualenv
+virtualenv --version
+virtualenv -p python3 venv
+source venv/bin/activate
+deactivate
+````
+
 Para evitar conflictos entre dependencias.
 ````
 python3 -m venv jupyter_env
