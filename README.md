@@ -133,7 +133,7 @@ jupyter kernelspec install --user /ruta/encontrada/cling-cpp
 conda activate base  # O o mobre del entorno (conda)
 jupyter notebook
 
-# Si Jupyter no está instalado en el entorno, instalarlo como:
+Si Jupyter no está instalado en el entorno, instalarlo como:
 
 conda install -c conda-forge jupyter
 
@@ -151,10 +151,28 @@ conda activate jupyter_cpp
 jupyter notebook
 
 ````
-Iniciar Jupyter Notebook
+Iniciar Jupyter Notebook activando conda
 ````
+# activar conda desde el directorio de trabajo en /home/usuario
+source ~/miniconda3/bin/activate
 jupyter notebook stop
 jupyter notebook
+
+# puedo crear otro entorno y activar conda en ese entorno
+conda create --name jupyter-c-cpp python=3.9
+conda activate jupyter-c-cpp
+# puedo instalar C en ese entorno
+conda install -c conda-forge jupyter-c-kernel
+conda install gcc
+conda install -c conda-forge gcc
+conda install pip
+gcc --version
+python -m jupyter_c_kernel.install
+jupyter notebook stop
+jupyter notebook
+
+
+
 ````
 Crear un nuevo notebook con el kernel de C
 En Jupyter Notebook, hacer clic en New
