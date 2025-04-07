@@ -1,6 +1,6 @@
 # PDI - TP 1 - A (Entrega 28/04/2025)
 
-Ir a: Explicar
+Ir a: (https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP1/TP1_Cliente_Servidor_R1.ipynb)
 
 Explicar qué es un socket y los diferentes tipos de sockets.
 
