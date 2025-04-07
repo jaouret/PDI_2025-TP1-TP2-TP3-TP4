@@ -1,5 +1,7 @@
 # PDI - TP 1 - A (Entrega 28/04/2025)
 
+Ir a: Explicar
+
 Explicar qué es un socket y los diferentes tipos de sockets.
 
 Cuáles son las estructuras necesarias para operar con sockets en el modelo C-S y cómo se hace para ingresar los datos requeridos. Explicar con un ejemplo.
