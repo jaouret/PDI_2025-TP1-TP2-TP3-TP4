@@ -50,6 +50,11 @@ virtualenv -p python3 venv
 source venv/bin/activate
 deactivate
 ````
+**Cómo activar "bash" en el Jupyter Notebook**
+````
+pip install bash_kernel
+python -m bash_kernel.install
+````
 
 Para evitar conflictos entre dependencias.
 ````
