@@ -3,7 +3,7 @@
 Ir a: (https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP1/TP1_Cliente_Servidor_R1.ipynb)
 
 # PDI - TP 1 - B - Raw Sockets (Entrega 12/05/2025)
-Ir a: https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP1/TP1B_Raw_Sockets_R1.ipynb
+Ir a: https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP1/TP1B_Raw_Sockets_R2.ipynb
 
 El concepto básico de sockets a bajo nivel es enviar un solo paquete por vez con todos los encabezados de los protocolos
 completados dentro del programa en lugar de usar el kernel.
