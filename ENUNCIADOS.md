@@ -3,6 +3,7 @@
 Ir a: (https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP1/TP1_Cliente_Servidor_R1.ipynb)
 
 # PDI - TP 1 - B - Raw Sockets (Entrega 12/05/2025)
+Ir a: https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP1/TP1B_Raw_Sockets_R1.ipynb
 
 El concepto básico de sockets a bajo nivel es enviar un solo paquete por vez con todos los encabezados de los protocolos
 completados dentro del programa en lugar de usar el kernel.
@@ -26,10 +27,6 @@ Con esta información es posible crear un simple "sniffer", que muestre todo el 
 que se reciban. ( En este ejemplo se evitan los headers IP y TCP, y se imprime solamente el "payload" con encabezados IP y
 TCP contenidos en el paquete ).
 
-* Utilizando el código raw.c como base escribir un "sniffer" que es un programa que muestra el contenido del tráfico que llega.
-* Enviar tráfico al "sniffer" desde el cliente escrito en la parte A del TP1
-* Enviar tráfico ICMP al "sniffer" y mostrar los resultados del LOG con comentarios.
-* Mostrar resultados.
 
 # PDI - TP 1 - C - Cliente Servidor utilizando Sockets en Python. (Entrega 19/05/2025)
 
