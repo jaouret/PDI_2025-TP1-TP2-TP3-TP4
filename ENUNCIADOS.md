@@ -2,7 +2,7 @@
 
 Ir a: (https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP1/TP1_Cliente_Servidor_R1.ipynb)
 
-# PDI - TP 1 - B - Raw Sockets (Entrega 5/05/2025)
+# PDI - TP 1 - B - Raw Sockets (Entrega 12/05/2025)
 
 El concepto básico de sockets a bajo nivel es enviar un solo paquete por vez con todos los encabezados de los protocolos
 completados dentro del programa en lugar de usar el kernel.
@@ -31,7 +31,7 @@ TCP contenidos en el paquete ).
 * Enviar tráfico ICMP al "sniffer" y mostrar los resultados del LOG con comentarios.
 * Mostrar resultados.
 
-# PDI - TP 1 - C - Cliente Servidor utilizando Sockets en Python. (Entrega 12/05/2025)
+# PDI - TP 1 - C - Cliente Servidor utilizando Sockets en Python. (Entrega 19/05/2025)
 
 Para realizar programas Cliente Servidor con Python utlizamos la librería o paquete socket.py ( https://github.com/python/cpython/blob/3.10/Lib/socket.py )
 ). Esta librería es una transcripción sencilla de la llamada al sistema sockets de BSD Unixal estilo orientado a objetos de Python:.
@@ -81,7 +81,7 @@ except OSError:
 CLIENT.close()
 ```
 
-# PDI - TP 2 - A - SNMP (Entrega 19/05/2025)
+# PDI - TP 2 - A - SNMP (Entrega 26/05/2025)
 
 Descargar de internet un gestor de SNMP
 Instalar un agente SNMP en Windows
@@ -138,7 +138,7 @@ Ejecutar el MIB Browser sobre Windows o Linux.
 
 Describir lo que se observa en un informe.
 
-# PDI - TP 3 - A - RestAPI - Servidores sin control de estado - Gestión de la Base de Datos (Entrega 2/06/2025)
+# PDI - TP 3 - A - RestAPI - Servidores sin control de estado - Gestión de la Base de Datos (Entrega 9/06/2025)
 Instalar SQLite.
 
 Instalar Heidi SQL en Windows.
