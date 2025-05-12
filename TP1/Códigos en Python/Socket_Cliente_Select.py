@@ -17,7 +17,7 @@ socks = [
     socket.socket(socket.AF_INET, socket.SOCK_STREAM),
 ]
 
-# onectar el socket al puerto en el cual el servidor está escuchando
+# Conectar el socket al puerto en el cual el servidor está escuchando
 print('conectando a {} puerto {}'.format(*dir_servidor),
       file=sys.stderr)
 for s in socks:
