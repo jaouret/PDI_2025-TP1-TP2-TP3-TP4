@@ -1,3 +1,4 @@
+# Socket_Cliente_Select.py
 # El programa cliente de ejemplo utiliza dos sockets para demostrar cómo el servidor con select() administra múltiples conexiones al mismo tiempo.
 # El cliente comienza conectando cada socket TCP/IP al servidor.
 

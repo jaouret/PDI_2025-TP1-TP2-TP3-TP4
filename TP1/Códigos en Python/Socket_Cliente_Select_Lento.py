@@ -1,5 +1,4 @@
-# Esta versión «lenta» del programa cliente se detiene después de enviar cada mensaje,
-# para simular la latencia u otro retraso en la transmisión.
+# Socket_Cliente_Select_Lento.py
 
 import socket
 import sys
