@@ -30,26 +30,11 @@ TCP contenidos en el paquete ).
 
 # PDI - TP 1 - C - Cliente Servidor utilizando Sockets en Python. (Entrega 19/05/2025)
 
+Ir a: 
+
 Para realizar programas Cliente Servidor con Python utlizamos la librería o paquete socket.py ( https://github.com/python/cpython/blob/3.10/Lib/socket.py )
 ). Esta librería es una transcripción sencilla de la llamada al sistema sockets de BSD Unixal estilo orientado a objetos de Python:.
 La función socket() devuelve a socket object métodos que implementan las diversas llamadas al sistema de socket. Los tipos de parámetros tienen un nivel algo más alto que en la interfaz C, como con read() y write() en el uso de los archivos Python, la asignación del buffer es automática y la longitud del buffer está implícita en las operaciones de envío.
-
-Para detalles de la implementación de socket.py ver;
-
-Para la parte C del trabajo práctico usar como ejemplos de base los siguientes códigos (la explicación de la implementación está detallada dentro del mismo código)
-
-y escribir una aplicación cliente servidor que muestre las direcciones y puertos de todos los clientes conectados del lado del servidor y devuelva a cada cliente el día y hora de conexión, y el tiempo que estuvo (o está conectado).
-
-Realizar la misma aplicación tanto para C-S con Concurrencia Aparente (Select) como C-S Concurrente.
-
-De ser necesario agregar tiempo de espera, loop, sleep, con contadores para demorar los procesos.
-
-Implementar una limpieza de recuersos al salir del los programas (agregar opción de pregunta al usuario para cerrar los clientes).
-
-Para crear un socket (stream) en Python:
-socket.socket(family=AF_INET, type=SOCK_STREAM, proto=0, fileno=None)
-
-Los parámetros son los mismos que se usan en C
 
 
 # PDI - TP 2 - A - SNMP (Entrega 26/05/2025)
