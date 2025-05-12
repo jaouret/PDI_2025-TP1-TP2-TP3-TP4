@@ -30,7 +30,7 @@ TCP contenidos en el paquete ).
 
 # PDI - TP 1 - C - Cliente Servidor utilizando Sockets en Python. (Entrega 19/05/2025)
 
-Ir a: 
+Ir a: https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP1/TP1C_Sockets_Python.ipynb
 
 Para realizar programas Cliente Servidor con Python utlizamos la librería o paquete socket.py ( https://github.com/python/cpython/blob/3.10/Lib/socket.py )
 ). Esta librería es una transcripción sencilla de la llamada al sistema sockets de BSD Unixal estilo orientado a objetos de Python:.
