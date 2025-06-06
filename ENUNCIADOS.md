@@ -37,7 +37,7 @@ Para realizar programas Cliente Servidor con Python utlizamos la librería o paq
 La función socket() devuelve a socket object métodos que implementan las diversas llamadas al sistema de socket. Los tipos de parámetros tienen un nivel algo más alto que en la interfaz C, como con read() y write() en el uso de los archivos Python, la asignación del buffer es automática y la longitud del buffer está implícita en las operaciones de envío.
 
 
-# PDI - TP 2 - A - SNMP (Entrega 26/05/2025)
+# PDI - TP 2 - A - SNMP (Entrega 16/06/2025)
 Ir a: https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP2/TP2A_SNMP_R2.ipynb
 
 Realizar ejercicios 1, 2, 3 y 4
@@ -92,7 +92,7 @@ Notas:
 
 Verificar y mejorar.
 
-# PDI - TP 4 - A - RestAPI - IoT - MQTT (Entrega 9/06/2025)
+# PDI - TP 4 - A - RestAPI - IoT - MQTT (Entrega 23/06/2025)
 
 Instalar MQTT en Windows o Linux.
 
@@ -171,7 +171,7 @@ net stop mosquitto
 
 * Seguir los mismos pasos explicados para Linux.
 
-# PDI - TP 4 - B - IoT MQTT (Entrega 16/06/2025)
+# PDI - TP 4 - B - IoT MQTT (Entrega 30/06/2025)
 
 Una vez que tengan funcionando lo anterior deberán simular la publicación de datos de sensores tomando lo que está ingresado en la base datos.
 Por practicidad y seguridad se puede hacer una aplicación cliente servidor entre los sensores y una base de datos, para que luego un publicador mqtt tome los datos desde ahí.
