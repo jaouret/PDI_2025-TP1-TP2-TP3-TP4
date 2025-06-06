@@ -44,7 +44,7 @@ Realizar ejercicios 1, 2, 3 y 4
 
 Describir lo que se observa en un informe.
 
-# PDI - TP 3 - A - RestAPI - Servidores sin control de estado - Gestión de la Base de Datos (Entrega 9/06/2025)
+# PDI - TP 3 - A - RestAPI - Servidores sin control de estado - Gestión de la Base de Datos (Entrega 23/06/2025)
 Instalar SQLite.
 
 Instalar Heidi SQL en Windows.
