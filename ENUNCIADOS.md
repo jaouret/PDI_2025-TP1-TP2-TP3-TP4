@@ -38,7 +38,8 @@ La función socket() devuelve a socket object métodos que implementan las diver
 
 
 # PDI - TP 2 - A - SNMP (Entrega 16/06/2025)
-Ir a: https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP2/TP2A_SNMP_R2.ipynb
+
+Ir a: https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP2/TP2A_SNMP_R3.ipynb
 
 Realizar ejercicios 1, 2, 3 y 4
 
