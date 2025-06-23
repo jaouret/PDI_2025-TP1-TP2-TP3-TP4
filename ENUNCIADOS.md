@@ -45,7 +45,7 @@ Realizar ejercicios 1, 2, 3 y 4
 
 Describir lo que se observa en un informe.
 
-# PDI - TP 3 - A - RestAPI - Servidores sin control de estado - Gestión de la Base de Datos (Entrega 23/06/2025)
+# PDI - TP 3 - A - RestAPI - Servidores sin control de estado - Gestión de la Base de Datos (Entrega 31/06/2025)
 Instalar SQLite.
 
 Instalar Heidi SQL en Windows.
@@ -93,7 +93,10 @@ Notas:
 
 Verificar y mejorar.
 
-# PDI - TP 4 - A - RestAPI - IoT - MQTT (Entrega 23/06/2025)
+# PDI - TP 4 - A - RestAPI - IoT - MQTT (Entrega 31/06/2025)
+
+Link al TP: 
+https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP4/TP_4_RestAPI_MQTT.ipynb
 
 Instalar MQTT en Windows o Linux.
 
@@ -171,8 +174,6 @@ net stop mosquitto
 * Abrir dos ventanas de terminal (símbolo del sistema).
 
 * Seguir los mismos pasos explicados para Linux.
-
-# PDI - TP 4 - B - IoT MQTT (Entrega 30/06/2025)
 
 Una vez que tengan funcionando lo anterior deberán simular la publicación de datos de sensores tomando lo que está ingresado en la base datos.
 Por practicidad y seguridad se puede hacer una aplicación cliente servidor entre los sensores y una base de datos, para que luego un publicador mqtt tome los datos desde ahí.
