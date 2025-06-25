@@ -95,8 +95,8 @@ Verificar y mejorar.
 
 # PDI - TP 4 - A - RestAPI - IoT - MQTT (Entrega 31/06/2025)
 
-Link al TP: 
-https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP4/TP4_RestAPI_MQTT_R3.ipynb
+Link al TP: https://github.com/jaouret/PDI_2025-TP1-TP2-TP3-TP4/blob/main/TP4/TP4_RestAPI_MQTT_R3.ipynb
+
 
 Instalar MQTT en Windows o Linux.
 
